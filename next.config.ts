@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath,
   assetPrefix: basePath,
+  images: {
+    // not good but will do for now
+    unoptimized: true,
+  },
   publicRuntimeConfig: {
     basePath,
   },
