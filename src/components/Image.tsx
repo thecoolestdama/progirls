@@ -1,7 +1,8 @@
 import getConfig from "next/config";
 import NextImage, { ImageProps } from "next/image";
 
-const { publicRuntimeConfig } = getConfig();
+const config = getConfig();
+const publicRuntimeConfig = config?.publicRuntimeConfig || {};
 const { basePath } = publicRuntimeConfig;
 
 /**
