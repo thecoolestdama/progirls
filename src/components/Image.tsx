@@ -1,9 +1,6 @@
-import getConfig from "next/config";
 import NextImage, { ImageProps } from "next/image";
 
-const config = getConfig();
-const publicRuntimeConfig = config?.publicRuntimeConfig || {};
-const { basePath } = publicRuntimeConfig;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH;
 
 /**
  * Modifies the source of an image by appending the base path.
