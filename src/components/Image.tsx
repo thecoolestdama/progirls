@@ -4,7 +4,12 @@ import NextImage, { ImageProps } from "next/image";
 const { publicRuntimeConfig } = getConfig();
 const { basePath } = publicRuntimeConfig;
 
+/**
+ * Modifies the source of an image by appending the base path.
+ */
 const handleSrc = (src: ImageProps["src"]) => {
+  if (!basePath) return src;
+
   if (typeof src === "string") {
     return `${basePath}${src}`;
   }
