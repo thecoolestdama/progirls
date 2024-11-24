@@ -1,5 +1,5 @@
 const Tester = () => {
-  return "tester page";
+  return <h1>tester page</h1>;
 };
 
 export default Tester;
