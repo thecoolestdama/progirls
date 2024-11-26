@@ -1,6 +1,6 @@
 import TextFaq from "../../components/TextFaq"
 
-const Home: React.FC = () => {
+const Teste: React.FC = () => {
   return (
     <div>
       <h1>Home Page Teste</h1>
@@ -9,4 +9,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Teste;
