@@ -1,11 +1,14 @@
 import Header from '../../components/Header/header'
+import TextFaq from "../../components/TextFaq"
 
-const Tester = () => {
-  return(
+const Teste: React.FC = () => {
+  return (
     <>
-    <Header/>
-    </>
-  )
+      <Header/>
+      <h1>Home Page Teste</h1>
+      <TextFaq />
+    /</>
+  );
 };
 
-export default Tester;
+export default Teste;
