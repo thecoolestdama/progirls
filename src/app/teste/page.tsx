@@ -1,5 +1,11 @@
+import Header from '../../components/Header/header'
+
 const Tester = () => {
-  return <h1>tester page</h1>;
+  return(
+    <>
+    <Header/>
+    </>
+  )
 };
 
 export default Tester;
