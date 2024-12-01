@@ -1,25 +1,32 @@
+import Image from 'next/image';
+import './style.css';
+import Link from "next/link"; 
+import Button from "../Button/button"
+import { Filter } from '@material-ui/icons';
+import { dark } from '@material-ui/core/styles/createPalette';
+
 export default function header(){
     return(
         <header>
-            <section className="pt-10 bg-emphasis">
-             </section>
-            <section className="px-20 py-6 flex justify-between border-2 border-foreground">
+            <div className="destaque">
+             </div>
+            <section className="navegacao">
                 <div>
-                    <h1 className="text-4xl font-black;">ProGirls</h1>
+                    <a href="/">
+                    <Image src="proGirls.svg" alt="Logo ProGirls" width={200} height={100} className="filter dark:invert"/>
+                    </a>
                 </div>
-                <nav className="w-2/4 pt-2">
-                    <ul className="flex justify-around align-middle	">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Comunidade</a></li>
-                        <li><a href="">Sobre Nós</a></li>
+                <nav className="paginas">
+                    <ul>
+                        <li><Link href="/home">Home</Link></li>
+                        <li><Link href="/comunidade">Comunidade</Link></li>
+                        <li><Link href="/sobre">Sobre Nós</Link></li>
                     </ul>
                 </nav>
                 <div>
-                    <button className="bg-foreground text-background w-28 h-8 rounded	">Comece Agora</button>
+                   <Button/>
                 </div>
-
             </section>
-             
         </header>
     )
 }
