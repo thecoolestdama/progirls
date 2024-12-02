@@ -2,8 +2,7 @@ import Image from 'next/image';
 import './style.css';
 import Link from "next/link"; 
 import Button from "../Button/button"
-import { Filter } from '@material-ui/icons';
-import { dark } from '@material-ui/core/styles/createPalette';
+
 
 export default function header(){
     return(

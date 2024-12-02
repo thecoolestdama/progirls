@@ -1,4 +1,3 @@
-import { Filter, InvertColors } from "@material-ui/icons";
 import type { Config } from "tailwindcss";
 
 export default {
