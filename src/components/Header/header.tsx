@@ -11,9 +11,9 @@ export default function header(){
              </div>
             <section className="navegacao">
                 <div>
-                    <a href="/">
-                    <Image src="proGirls.svg" alt="Logo ProGirls" width={200} height={100} className="filter dark:invert"/>
-                    </a>
+                    <Link href="/">
+                        <Image src="proGirls.svg" alt="Logo ProGirls" width={200} height={100} className="filter dark:invert"/>
+                    </Link>
                 </div>
                 <nav className="paginas">
                     <ul>
