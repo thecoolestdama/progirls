@@ -4,6 +4,7 @@ const Teste: React.FC = () => {
   return (
     <div>
       <h1>Home Page Teste</h1>
+      <SocialIcons /> {}
       <TextFaq />
     </div>
   );
