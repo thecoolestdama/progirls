@@ -1,3 +1,5 @@
+import React from "react";
+import SocialIcons from "../../components/Icons/SocialIcons"; 
 import TextFaq from "../../components/TextFaq"
 
 const Teste: React.FC = () => {
