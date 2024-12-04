@@ -1,21 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-header{
-    @apply border-2 border-foreground;
-}
-.destaque{
-    @apply pt-10 bg-emphasis;
+.destaque {
+  @apply pt-10 bg-emphasis;
 }
 
-.navegacao{
-    @apply px-14 py-6 flex justify-between border-t-2 border-foreground;
+.navegacao {
+  @apply px-14 py-6 flex justify-between border-b border-foreground;
 }
-.paginas{
-   @apply w-2/4 pt-2
+.paginas {
+  @apply w-2/4 pt-2;
 }
-ul{
-    @apply flex justify-around align-middle
+ul {
+  @apply flex justify-around align-middle;
 }

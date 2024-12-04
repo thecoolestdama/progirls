@@ -11,6 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "next": "15.0.3",
     "react": "rc",
     "react-dom": "rc",
