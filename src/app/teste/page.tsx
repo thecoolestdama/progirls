@@ -1,12 +1,16 @@
-import { Text } from "@/components/text";
+import Header from '../../components/Header/header'
+import TextFaq from "../../components/TextFaq"
+import TextComponent from '@/components/TextComponent';
 
-const Tester = () => {
+const Teste: React.FC = () => {
   return (
-    <h1>
-      tester page
-      <Text />
-    </h1>
+    <>
+      <Header/>
+      <h1>Home Page Teste</h1>
+      <TextFaq />
+      
+    /</>
   );
 };
 
-export default Tester;
+export default Teste;
