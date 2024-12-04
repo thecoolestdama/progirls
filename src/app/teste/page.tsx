@@ -1,10 +1,12 @@
 import TextFaq from "../../components/TextFaq"
+import React from 'react';
+import SocialIcons from '../../components/SocialIcons';
+
 
 const Teste: React.FC = () => {
   return (
     <div>
-      <h1>Home Page Teste</h1>
-      <TextFaq />
+      <SocialIcons/>
     </div>
   );
 };
