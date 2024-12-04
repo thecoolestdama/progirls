@@ -1,15 +1,16 @@
 import Header from '../../components/Header/header'
 import TextFaq from "../../components/TextFaq"
-import TextComponent from '@/components/TextComponent';
+import React from 'react';
+import SocialIcons from '../../components/SocialIcons';
+
 
 const Teste: React.FC = () => {
   return (
-    <>
+    <div>
       <Header/>
-      <h1>Home Page Teste</h1>
-      <TextFaq />
-      
-    /</>
+      <SocialIcons/>
+      <TextFaq/>
+    </div>
   );
 };
 
