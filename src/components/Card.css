@@ -1,0 +1,52 @@
+.card {
+    background-color: #f0f0f0; /* Branco gelo */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    position: relative;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .card-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .card-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card-description {
+    margin-bottom: 16px;
+  }
+  
+  .card-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .card-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .card-circle {
+    background-color: #ff69b4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+  }
