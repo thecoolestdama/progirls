@@ -1,52 +1,72 @@
 .card {
-    background-color: #f0f0f0; /* Branco gelo */
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    position: relative;
-    width: 300px;
-    text-align: center;
-  }
-  
-  .card-header {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 16px;
-  }
-  
-  .card-image-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-  }
-  
-  .card-image {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .card-description {
-    margin-bottom: 16px;
-  }
-  
-  .card-icons {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-  }
-  
-  .card-icons img {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .card-circle {
-    background-color: #ff69b4;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: -15px;
-    right: -15px;
-  }
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 280px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-header {
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card-subheader {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.card-image-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 16px;
+}
+
+.card-image {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+}
+
+.card-gradient {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(255, 105, 180, 0.8), transparent);
+  z-index: -1;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.card-icons img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-icons img:hover {
+  transform: scale(1.1);
+}
