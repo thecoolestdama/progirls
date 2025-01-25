@@ -17,8 +17,8 @@ const Card: React.FC<CardProps> = ({ name, state, imageUrl, description, linkedi
       <div className="card-gradient"></div>
 
       <div className="card-header">
-        <h2 className="card-name">{name}</h2>
-        <p className="card-location">{state}</p>
+        <h2>{name}</h2>
+        <p>| {state}</p>
       </div>
 
       <div className="card-image-container">
@@ -31,13 +31,13 @@ const Card: React.FC<CardProps> = ({ name, state, imageUrl, description, linkedi
 
       <div className="card-icons">
         <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-          <img src="/icons/linkedin.png" alt="LinkedIn" />
+          <img src="../public/ICON 2.svg" alt="LinkedIn" />
         </a>
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-          <img src="/icons/github.png" alt="GitHub" />
+          <img src="../public/GIT 1.svg" alt="GitHub" />
         </a>
         <a href={externalUrl} target="_blank" rel="noopener noreferrer">
-          <img src="/icons/external-link.png" alt="External Link" />
+          <img src="../public/link 1.svg" alt="External Link" />
         </a>
       </div>
     </div>
